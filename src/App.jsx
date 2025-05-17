@@ -3,6 +3,7 @@ import { AstroIcon } from './components/AstroIcon'
 import { ReactIcon } from './components/ReactIcon'
 import { TailwindIcon } from './components/TailwindIcon'
 import { TypeScriptIcon } from './components/TypeScriptIcon'
+import { Link } from './components/Link'
 
 export function App () {
   return (
@@ -15,7 +16,7 @@ export function App () {
             className='h-42 w-42 rounded-full border-3 border-green-700'
           />
           <div className='flex flex-col gap-3'>
-            <div className='flex flex-col md:flex-row gap-4 items-center'>
+            <div className='flex flex-col-reverse md:flex-row gap-2 md:gap-4 items-center'>
               <h1 className='text-green-800 font-bold text-4xl'>
                 Hola, soy Pablo
               </h1>
@@ -61,35 +62,20 @@ export function App () {
 
           <section className='flex h-fit flex-col justify-center gap-1 p-4 rounded hover:scale-105 transition-all duration-300 md:w-1/3'>
             <div className='flex gap-2 w-full flex-wrap'>
-              <a
-                href='mailto:pabloccsanchez@gmail.com'
-                className='h-fit text-green-800 text-sm px-2 py-1 rounded-full font-bold border-1 hover:bg-green-50 transition-colors duration-200 flex items-center gap-0.5 leading-0 w-fit'
-                target='_blank'
-                rel='noreferrer'
-              >
+              <Link href='mailto:pabloccsanchez@gmail.com'>
                 <Mail className='h-4' />
                 Mail
-              </a>
+              </Link>
 
-              <a
-                href='www.linkedin.com/in/pablo-castaño-sanchez-32697b277'
-                className='h-fit text-green-800 text-sm px-2 py-1 rounded-full font-bold border-1 hover:bg-green-50 transition-colors duration-200 flex items-center gap-0.5 leading-0 w-fit'
-                target='_blank'
-                rel='noreferrer'
-              >
+              <Link href='www.linkedin.com/in/pablo-castaño-sanchez-32697b277'>
                 <Linkedin className='h-4' />
                 LinkedIn
-              </a>
+              </Link>
 
-              <a
-                href='https://github.com/pablos-juan'
-                className='h-fit text-green-800 text-sm px-2 py-1 rounded-full font-bold border-1 hover:bg-green-50 transition-colors duration-200 flex items-center gap-0.5 leading-0 w-fit'
-                target='_blank'
-                rel='noreferrer'
-              >
+              <Link href='https://github.com/pablos-juan'>
                 <Github className='h-4' />
                 GitHub
-              </a>
+              </Link>
             </div>
 
             <h2 className='text-green-800 text-2xl font-bold mt-2'>
