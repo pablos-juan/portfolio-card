@@ -10,7 +10,7 @@ export function App () {
       <section className='bg-green-600/20 w-full md:w-200 h-fit rounded-2xl p-4 gap-4 md:gap-0 border-7 border-green-600 shadow-xl/20 flex flex-col items-center justify-center'>
         <article className='flex flex-col md:flex-row items-center gap-6 p-4 rounded hover:scale-105 transition-all duration-300'>
           <img
-            src='https://avatar.iran.liara.run/public/boy'
+            src='/public/avatar.webp'
             alt='avatar'
             className='h-42 w-42 rounded-full border-3 border-green-700'
           />
@@ -41,7 +41,7 @@ export function App () {
               <article className='border-2 border-green-700 rounded md:w-1/2 h-20 flex items-end w-full' />
             </div>
 
-            <div className='bg-green-50 py-2 px-3 rounded'>
+            <div className='bg-green-50/80 py-2 px-3 rounded'>
               <div className='flex w-full items-center'>
                 <h2 className='text-green-800 font-bold text-2xl mr-3'>
                   Proyectos
@@ -53,7 +53,7 @@ export function App () {
                 <TypeScriptIcon />
               </div>
 
-              <p className='text-sm text-green-800'>
+              <p className='text-sm text-green-800 leading-5'>
                 Proyectos personales donde practico distintas tecnologías Frontend modernas. Cada uno representa un paso en mi evolución como desarrollador.
               </p>
             </div>

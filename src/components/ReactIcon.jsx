@@ -3,7 +3,7 @@ export const ReactIcon = () => (
     width='42px'
     height='42px'
     viewBox='0 0 569 512'
-    className='text-green-800 p-2 bg-green-50 border-1 border-green-300 rounded-full hover:scale-105 transition-all duration-200'
+    className='text-green-800 p-2 bg-white border-1 border-green-800 rounded-full hover:scale-105 transition-all duration-200'
   >
     <g fill='none' fillRule='evenodd'>
       <g transform='translate(-227, -256)' fill='#136377' fillRule='nonzero'>

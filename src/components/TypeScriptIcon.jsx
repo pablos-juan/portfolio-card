@@ -1,5 +1,5 @@
 export const TypeScriptIcon = () => (
-  <div className='border-1 border-green-300 bg-green-50 -ml-3 rounded-full z-20 hover:scale-105 transition-all duration-200'>
+  <div className='border-1 border-green-800 bg-white -ml-3 rounded-full z-20 hover:scale-105 transition-all duration-200'>
     <svg
       viewBox='0 0 256 256'
       width='42px'

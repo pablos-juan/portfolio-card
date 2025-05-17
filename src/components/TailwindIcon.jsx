@@ -4,7 +4,7 @@ export const TailwindIcon = () => (
     viewBox='0 0 54 33'
     width='42px'
     height='42px'
-    className='text-green-800 p-2 bg-green-50 border-1 border-green-300 rounded-full hover:scale-105 transition-all duration-200 -ml-3 z-10'
+    className='text-green-800 p-2 bg-white border-1 border-green-800 rounded-full hover:scale-105 transition-all duration-200 -ml-3 z-10'
   >
     <g clipPath='url(#a)'>
       <path
