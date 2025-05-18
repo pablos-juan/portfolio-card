@@ -1,7 +1,7 @@
 export const ReactIcon = () => (
   <svg
-    width='42px'
-    height='42px'
+    width='36px'
+    height='36px'
     viewBox='0 0 569 512'
     className='text-green-800 p-2 bg-white border-1 border-green-800 rounded-full hover:scale-105 transition-all duration-200'
   >

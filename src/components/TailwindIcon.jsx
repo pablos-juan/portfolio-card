@@ -2,8 +2,8 @@ export const TailwindIcon = () => (
   <svg
     fill='none'
     viewBox='0 0 54 33'
-    width='42px'
-    height='42px'
+    width='36px'
+    height='36px'
     className='text-green-800 p-2 bg-white border-1 border-green-800 rounded-full hover:scale-105 transition-all duration-200 -ml-3 z-10'
   >
     <g clipPath='url(#a)'>

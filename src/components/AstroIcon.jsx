@@ -1,8 +1,8 @@
 export const AstroIcon = () => (
   <svg
     viewBox='0 0 256 366'
-    width='42px'
-    height='42px'
+    width='36px'
+    height='36px'
     className='text-green-800 p-2 bg-white border-1 border-green-800 rounded-full -ml-3 hover:scale-105 transition-all duration-200 z-5'
   >
     <path

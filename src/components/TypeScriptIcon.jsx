@@ -2,10 +2,10 @@ export const TypeScriptIcon = () => (
   <div className='border-1 border-green-800 bg-white -ml-3 rounded-full z-20 hover:scale-105 transition-all duration-200'>
     <svg
       viewBox='0 0 256 256'
-      width='42px'
-      height='42px'
+      width='36px'
+      height='36px'
       preserveAspectRatio='xMidYMid'
-      className='text-green-800 p-2.5 rounded-xl'
+      className='text-green-800 p-2 rounded'
     >
       <path
         d='M20 0h216c11.046 0 20 8.954 20 20v216c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20V20C0 8.954 8.954 0 20 0Z'
