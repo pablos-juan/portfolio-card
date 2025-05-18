@@ -11,7 +11,7 @@ export function App () {
       <section className='bg-green-600/20 w-full md:w-200 h-fit rounded-2xl p-4 gap-4 md:gap-0 border-7 border-green-600 shadow-xl/20 flex flex-col items-center justify-center'>
         <article className='flex flex-col md:flex-row items-center gap-6 p-4 rounded hover:scale-105 transition-all duration-300'>
           <img
-            src='/public/avatar.webp'
+            src='public/avatar.webp'
             alt='avatar'
             className='h-42 w-42 rounded-full border-3 border-green-700'
           />
