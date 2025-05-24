@@ -55,7 +55,7 @@ export function Home ({ handleFlip }) {
           </div>
 
           <div
-            className='hover:bg-white/70 cursor-pointer transition-colors duration-200 p-2 rounded'
+            className='hover:bg-white/70 cursor-pointer transition-colors duration-200 py-2 px-3 rounded'
             onClick={handleFlip}
           >
             <div className='flex w-full justify-between items-center mb-1'>
@@ -71,7 +71,7 @@ export function Home ({ handleFlip }) {
               </div>
             </div>
 
-            <p className='text-sm text-green-800 leading-5'>
+            <p className='text-sm text-green-800 leading-4.5'>
               Proyectos personales desarrollados para aprender y poner en práctica mis habilidades en distintas tecnologías Frontend. Reflejan mi progreso y compromiso con el aprendizaje continuo.
             </p>
           </div>
@@ -96,14 +96,14 @@ export function Home ({ handleFlip }) {
           </div>
 
           <div
-            className='p-2 rounded active:bg-white hover:bg-white/70 cursor-pointer transition-colors duration-200'
+            className='p-2 rounded active:bg-white hover:bg-white/70 cursor-pointer transition-colors duration-200 text-teal-700'
             onClick={handleFlip}
           >
-            <h2 className='text-green-800 text-2xl font-bold'>
+            <h2 className='text-2xl font-bold'>
               Contacto
             </h2>
 
-            <p className='text-2sm leading-5.5 text-green-800'>
+            <p className='text-2sm leading-5.5'>
               Actualmente estoy en búsqueda de mi primera oportunidad laboral como desarrollador Frontend.
             </p>
           </div>
