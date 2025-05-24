@@ -6,10 +6,13 @@ import { TypeScriptIcon } from '../components/icons/TypeScriptIcon'
 import { Link } from '../components/Link'
 import { Project } from './Project'
 
-export function Home () {
+export function Home ({ handleFlip }) {
   return (
     <section className='flex flex-col justify-center h-full p-5 gap-2 md:gap-3'>
-      <article className='flex flex-col md:flex-row items-center gap-6 rounded p-2 hover:bg-white/70 cursor-pointer active:bg-white transition-colors duration-200'>
+      <article
+        className='flex flex-col md:flex-row items-center gap-6 rounded p-2 hover:bg-white/70 cursor-pointer active:bg-white transition-colors duration-200'
+        onClick={handleFlip}
+      >
         <img
           src='/avatar.webp'
           alt='avatar'
@@ -51,7 +54,10 @@ export function Home () {
             />
           </div>
 
-          <div className='hover:bg-white/70 cursor-pointer transition-colors duration-200 p-2 rounded'>
+          <div
+            className='hover:bg-white/70 cursor-pointer transition-colors duration-200 p-2 rounded'
+            onClick={handleFlip}
+          >
             <div className='flex w-full justify-between items-center mb-1'>
               <h2 className='text-green-800 font-bold text-2xl mr-3'>
                 Proyectos
@@ -89,7 +95,10 @@ export function Home () {
             </Link>
           </div>
 
-          <div className='p-2 rounded active:bg-white hover:bg-white/70 cursor-pointer transition-colors duration-200'>
+          <div
+            className='p-2 rounded active:bg-white hover:bg-white/70 cursor-pointer transition-colors duration-200'
+            onClick={handleFlip}
+          >
             <h2 className='text-green-800 text-2xl font-bold'>
               Contacto
             </h2>
