@@ -10,7 +10,7 @@ export function Home ({ handleFlip }) {
   return (
     <section className='flex flex-col justify-center h-full p-5 gap-2 md:gap-3'>
       <article
-        className='flex flex-col md:flex-row items-center gap-6 rounded p-2 hover:bg-white/70 cursor-pointer active:bg-white transition-colors duration-200'
+        className='flex flex-col md:flex-row items-center gap-6 rounded p-2 hover:bg-white/70 hover:shadow-xl cursor-pointer active:bg-white transition-all duration-300'
         onClick={handleFlip}
       >
         <img
@@ -55,11 +55,11 @@ export function Home ({ handleFlip }) {
           </div>
 
           <div
-            className='hover:bg-white/70 cursor-pointer transition-colors duration-200 py-2 px-3 rounded'
+            className='hover:bg-green-900/90 hover:shadow-xl bg-green-950/90 cursor-pointer transition-all duration-300 p-3 rounded-xl'
             onClick={handleFlip}
           >
             <div className='flex w-full justify-between items-center mb-1'>
-              <h2 className='text-green-800 font-bold text-2xl mr-3'>
+              <h2 className='text-white font-bold text-2xl mr-3'>
                 Proyectos
               </h2>
 
@@ -71,13 +71,13 @@ export function Home ({ handleFlip }) {
               </div>
             </div>
 
-            <p className='text-sm text-green-800 leading-4.5'>
+            <p className='text-sm text-white leading-4.5'>
               Proyectos personales desarrollados para aprender y poner en práctica mis habilidades en distintas tecnologías Frontend. Reflejan mi progreso y compromiso con el aprendizaje continuo.
             </p>
           </div>
         </section>
 
-        <section className='flex h-fit flex-col justify-center gap-2 md:w-1/3'>
+        <section className='flex h-full flex-col justify-between gap-2 md:w-1/3'>
           <div className='flex px-2 gap-2 w-full flex-wrap'>
             <Link href='mailto:pabloccsanchez@gmail.com'>
               <Mail className='h-4' />
@@ -96,7 +96,7 @@ export function Home ({ handleFlip }) {
           </div>
 
           <div
-            className='p-2 rounded active:bg-white hover:bg-white/70 cursor-pointer transition-colors duration-200 text-teal-700'
+            className='px-4 py-2 rounded active:bg-white hover:bg-white/70 hover:shadow-xl cursor-pointer transition-all duration-300 text-teal-700'
             onClick={handleFlip}
           >
             <h2 className='text-2xl font-bold'>
