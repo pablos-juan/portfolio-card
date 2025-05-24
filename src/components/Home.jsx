@@ -9,7 +9,7 @@ import { Project } from './Project'
 export function Home () {
   return (
     <section className='flex flex-col justify-center h-full p-5 gap-2 md:gap-3'>
-      <article className='flex flex-col md:flex-row items-center gap-6 rounded p-2 hover:bg-white/80 active:scale-105 transition-all duration-200'>
+      <article className='flex flex-col md:flex-row items-center gap-6 rounded p-2 hover:bg-white/70 cursor-pointer active:bg-white transition-colors duration-200'>
         <img
           src='/avatar.webp'
           alt='avatar'
@@ -36,7 +36,7 @@ export function Home () {
       </article>
 
       <div className='flex flex-col md:flex-row gap-8 md:gap-4 h-fit w-full'>
-        <section className='flex flex-col-reverse md:flex-col justify-center gap-2 rounded active:scale-105 transition-all duration-200 h-fit md:w-2/3'>
+        <section className='flex flex-col-reverse md:flex-col justify-center gap-2 rounded active:bg-white transition-colors duration-200 h-fit md:w-2/3'>
           <div className='flex flex-col md:flex-row gap-3'>
             <Project
               title='Demo E-commerce'
@@ -51,7 +51,7 @@ export function Home () {
             />
           </div>
 
-          <div className='hover:bg-white transition-all duration-200 p-2 rounded'>
+          <div className='hover:bg-white/70 cursor-pointer transition-colors duration-200 p-2 rounded'>
             <div className='flex w-full justify-between items-center mb-1'>
               <h2 className='text-green-800 font-bold text-2xl mr-3'>
                 Proyectos
@@ -71,7 +71,7 @@ export function Home () {
           </div>
         </section>
 
-        <section className='flex h-fit flex-col justify-center gap-2 active:scale-105 transition-all duration-200 md:w-1/3'>
+        <section className='flex h-fit flex-col justify-center gap-2 md:w-1/3'>
           <div className='flex px-2 gap-2 w-full flex-wrap'>
             <Link href='mailto:pabloccsanchez@gmail.com'>
               <Mail className='h-4' />
@@ -89,7 +89,7 @@ export function Home () {
             </Link>
           </div>
 
-          <div className='p-2 rounded hover:bg-white/80 transition-colors duration-200'>
+          <div className='p-2 rounded active:bg-white hover:bg-white/70 cursor-pointer transition-colors duration-200'>
             <h2 className='text-green-800 text-2xl font-bold'>
               Contacto
             </h2>
