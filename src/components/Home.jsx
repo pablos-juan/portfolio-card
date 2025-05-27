@@ -84,7 +84,7 @@ export function Home ({ handleFlip }) {
               Mail
             </Link>
 
-            <Link href='www.linkedin.com/in/pablo-castaño-sanchez-32697b277'>
+            <Link href='https://www.linkedin.com/in/pablo-casta%C3%B1o-sanchez-32697b277/'>
               <Linkedin className='h-4' />
               LinkedIn
             </Link>
@@ -103,7 +103,7 @@ export function Home ({ handleFlip }) {
               Contacto
             </h2>
 
-            <p className='text-2sm leading-5.5'>
+            <p className='text-lg md:text-base leading-5.5'>
               Actualmente estoy en búsqueda de mi primera oportunidad laboral como desarrollador Frontend.
             </p>
           </div>

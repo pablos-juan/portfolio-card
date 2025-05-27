@@ -19,11 +19,11 @@ export function App () {
         </div>
 
         <div className={`absolute inset-0 w-full h-full backface-hidden transition-all duration-500 ${flip ? 'opacity-100' : 'opacity-0 rotate-y-180'}`}>
-          <div
-            className='md:grid md:place-items-center h-full m-2'
-            onClick={handleFlip}
-          >
-            <p className='flex items-center gap-4 bg-green-200 p-4 rounded-lg text-green-900 leading-4.5 font-medium cursor-pointer active:scale-105 hover:bg-white/80 transition-all duration-200'>
+          <div className='md:grid md:place-items-center h-full m-2'>
+            <p
+              className='flex items-center gap-4 bg-green-200 p-4 rounded-lg text-green-900 leading-4.5 font-medium cursor-pointer active:scale-105 hover:bg-white/80 transition-all duration-200'
+              onClick={handleFlip}
+            >
               Esta sección está en construcción, presione aquí para volver...
               <Undo2 className='w-10 md:w-auto h-auto' />
             </p>
