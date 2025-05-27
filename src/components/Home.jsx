@@ -5,13 +5,20 @@ import { TailwindIcon } from '../components/icons/TailwindIcon'
 import { TypeScriptIcon } from '../components/icons/TypeScriptIcon'
 import { Link } from '../components/Link'
 import { Project } from './Project'
+import { ABOUT, CONTACT, PROJECTS } from '../../constants/constants'
 
-export function Home ({ handleFlip }) {
+export function Home ({ setFlip, setCurrentBackFace }) {
+  const handleFlip = (key) => {
+    console.log(key)
+    setCurrentBackFace(key)
+    setFlip((prev) => setFlip(!prev))
+  }
+
   return (
     <section className='flex flex-col justify-center h-full p-5 gap-2 md:gap-3'>
       <article
         className='flex flex-col md:flex-row items-center gap-6 rounded-lg p-2 hover:bg-white/70 hover:shadow-xl cursor-pointer active:bg-white transition-all duration-300'
-        onClick={handleFlip}
+        onClick={() => handleFlip(ABOUT)}
       >
         <img
           src='/avatar.webp'
@@ -56,7 +63,7 @@ export function Home ({ handleFlip }) {
 
           <div
             className='hover:bg-green-900/90 hover:shadow-xl bg-green-950/90 cursor-pointer transition-all duration-300 p-3 rounded-lg'
-            onClick={handleFlip}
+            onClick={() => handleFlip(PROJECTS)}
           >
             <div className='flex w-full justify-between items-center mb-1'>
               <h2 className='text-white font-bold text-2xl mr-3'>
@@ -97,7 +104,7 @@ export function Home ({ handleFlip }) {
 
           <div
             className='px-4 py-2 rounded-lg active:bg-white hover:bg-white/70 hover:shadow-xl cursor-pointer transition-all duration-300 text-teal-700'
-            onClick={handleFlip}
+            onClick={() => handleFlip(CONTACT)}
           >
             <h2 className='text-2xl font-bold'>
               Contacto
