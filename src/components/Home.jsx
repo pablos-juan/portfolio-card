@@ -10,7 +10,7 @@ export function Home ({ handleFlip }) {
   return (
     <section className='flex flex-col justify-center h-full p-5 gap-2 md:gap-3'>
       <article
-        className='flex flex-col md:flex-row items-center gap-6 rounded p-2 hover:bg-white/70 hover:shadow-xl cursor-pointer active:bg-white transition-all duration-300'
+        className='flex flex-col md:flex-row items-center gap-6 rounded-lg p-2 hover:bg-white/70 hover:shadow-xl cursor-pointer active:bg-white transition-all duration-300'
         onClick={handleFlip}
       >
         <img
@@ -55,7 +55,7 @@ export function Home ({ handleFlip }) {
           </div>
 
           <div
-            className='hover:bg-green-900/90 hover:shadow-xl bg-green-950/90 cursor-pointer transition-all duration-300 p-3 rounded-xl'
+            className='hover:bg-green-900/90 hover:shadow-xl bg-green-950/90 cursor-pointer transition-all duration-300 p-3 rounded-lg'
             onClick={handleFlip}
           >
             <div className='flex w-full justify-between items-center mb-1'>
@@ -96,7 +96,7 @@ export function Home ({ handleFlip }) {
           </div>
 
           <div
-            className='px-4 py-2 rounded active:bg-white hover:bg-white/70 hover:shadow-xl cursor-pointer transition-all duration-300 text-teal-700'
+            className='px-4 py-2 rounded-lg active:bg-white hover:bg-white/70 hover:shadow-xl cursor-pointer transition-all duration-300 text-teal-700'
             onClick={handleFlip}
           >
             <h2 className='text-2xl font-bold'>
