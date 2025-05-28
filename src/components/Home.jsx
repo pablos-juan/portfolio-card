@@ -39,7 +39,7 @@ export function Home ({ setFlip, setCurrentBackFace }) {
               Disponible para trabajar
             </span>
           </div>
-          <p className='text-green-900 leading-6.5 text-xl opacity-80'>
+          <p className='text-green-900 leading-6.5 text-xl opacity-90'>
             Estudiante de Software en la <strong>Universidad Surcolombiana</strong>, con residencia en Neiva. <span className='text-teal-700 font-semibold'>Tengo experiencia práctica en desarrollo Front-End</span> y estoy abierto a cualquier oportunidad laboral.
           </p>
         </div>
